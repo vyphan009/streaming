@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.155"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "bucket": {
+        "name": "mymedia-dev-input-8se39g3r",
+        "accessKeyId": "AKIAIKT6TX76Z6FCQHRA",
+        "secretAccessKey": "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"
+  },
+  "cognito": {
+    "REGION": "us-west-2",
+    "USER_POOL_ID": "us-west-2_PndQNHzf2",
+    "APP_CLIENT_ID": "56cj8nr1g0juce8bf0v045a0o5"
+  }
+}

@@ -1,0 +1,36 @@
+------- Obstacles -------
+1. User Authentication
+
+At first, I used Auth0 for this feature, but soon I relized that it was a bit complicated when the rest of my project using Amazon services.
+
+Solution: I switched to AWS Cognito.
+
+2. AWS S3 and Cloudfront
+
+- I set up 2 buckets for input and output videos. However, I had a problem when setting up Cloudfront Distribution. 
+It couldn't access to the output bucket to get the decrypted files. Also, I couldn't grant the user access to the output even though it's public.
+
+Solution: I decided to put all decrypted files in the input buckets but in a different folder.
+
+- There are so many keys,ids and documentations that made me confused. Also, I wasn't clear how S3 and Cloudfront works together
+
+Solution: I went with a basic tutorial on AWS page, then I added new Bucket Policy and CORS Configuration. This took most of my time to figure it out.
+
+3. AWS Cognito
+
+I couldn't find any tokens that identify a group of users to set permission.
+
+Solution: I grouped users and set role for that group. So, based on the group name, I would allow users to play videos.
+
+
+------- Time Tracking -------
+Total time: 20hrs
+
+
+
+
+
+
+
+
+
