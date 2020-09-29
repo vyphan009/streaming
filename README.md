@@ -58,7 +58,7 @@ Open [http://localhost:3000](http://localhost:3000) on Safari to view it in the 
 
 ## Accounts
  
- These are account for testing:
+ These are accounts for testing:
  1. username: vy, password: Vyphan123$ (paid user)
  2. username: test, password: Test123$
  
