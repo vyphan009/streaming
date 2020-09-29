@@ -13,7 +13,7 @@ This project is audio/video file upload, managament and process.
 Clone this repo to your local machine using
 
 ```bash
-git clone https://github.com/vyphan009/stream-app.git
+git clone https://github.com/vyphan009/streaming.git
 ```
 
 ##Installation
