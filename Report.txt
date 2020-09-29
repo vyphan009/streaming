@@ -12,7 +12,7 @@ It couldn't access to the output bucket to get the decrypted files. Also, I coul
 
 Solution: I decided to put all decrypted files in the input buckets but in a different folder.
 
-- There are so many keys,ids and documentations that made me confused. Also, I wasn't clear how S3 and Cloudfront works together
+- There are so many keys,ids and documents that made me confused. Also, I wasn't clear how S3 and Cloudfront works together
 
 Solution: I went with a basic tutorial on AWS page, then I added new Bucket Policy and CORS Configuration. This took most of my time to figure it out.
 
